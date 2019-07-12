@@ -5,3 +5,5 @@ Attached is my work the exercises from Coursera's Machine Learning Course taught
   ex1- Implementing Linear Regression with Gradient Descent
 
   ex2- Adding Regularization Term to Logistic Regression + fminunc()
+
+  ex3- Implementing Neural Network Representation + Feedforward Propagation 
