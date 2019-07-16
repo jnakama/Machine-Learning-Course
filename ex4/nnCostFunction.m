@@ -86,11 +86,11 @@ delta3 = a3 - y_matrix;
 % Backpropagation to previous layer
 delta2 = (delta3 * Theta2 .* sigmoidGradient([ones(size(z2), 1) z2]))(:, 2:end);
 
-% step 4
+% compute deltas of previous layers
 Delta2 = delta3' * a2;
 Delta1 = delta2' * a1;
 
-% step 5
+% compute gradients
 Theta1_grad = 1 / m * Delta1 + lambda / m * [zeros(size(Theta1), 1) Theta1(:, 2:end)];
 Theta2_grad = 1 / m * Delta2 + lambda / m * [zeros(size(Theta2), 1) Theta2(:, 2:end)];
 
