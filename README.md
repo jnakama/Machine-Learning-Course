@@ -16,3 +16,5 @@ Attached is my work from the exercises from Coursera's Machine Learning Course t
 ex6- Using a Support Vector Machine to Classify Spam Emails Using the Gaussian Kernel
 
 ex7- Implementing K-means Algorithm and Principal Component Analysis to Reduce Dimensionality
+
+ex8- Anomaly and Detection Systems Using Gaussian Distributions
